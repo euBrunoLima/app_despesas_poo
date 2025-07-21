@@ -1,4 +1,4 @@
-import Despesa from '/class/Despesa.js';
+import Despesa from './class/Despesa.js';
 import DataBase from './class/DataBase.js'
 
 
@@ -43,7 +43,6 @@ function cadastrarDespesa(){
     }
 
     if(despesa.validarDados()){
-        console.log("dados errados vindo")
         DataBase.salvarDespesa(despesa);
         exibirMensagem('success', 'Registro de Despesa', 'Despesa registrada com sucesso!');
         limparCampos();
