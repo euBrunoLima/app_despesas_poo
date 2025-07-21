@@ -18,19 +18,28 @@ Este é um aplicativo web simples para controle de despesas pessoais, desenvolvi
 
 ---
 
+## 📸 Preview
+<div>
+    <img src="https://github.com/user-attachments/assets/a76750ea-1f09-42a0-8fe1-c88e67c40a39" width="400" height="auto" display="block">
+    <img src="https://github.com/user-attachments/assets/12f3961e-f147-41b2-8430-89785964cdea" width="400" height="auto" display="block">
+</div>
+
+    
+
+
 ## 📁 Estrutura do Projeto
 
 ```plaintext
     app_despesas_poo/
-    ├── app.js                     # Lógica principal do app
+    ├── app.js                     
     ├── assets/
-    │   └── logo.png               # Logotipo do projeto
+    │   └── logo.png               
     ├── class/
-    │   ├── DataBase.js            # Classe responsável pelo localStorage
-    │   └── Despesa.js             # Classe que representa uma despesa
+    │   ├── DataBase.js           
+    │   └── Despesa.js            
     └── pages/
-        ├── consulta.html          # Página de consulta e remoção de despesas
-        └── index.html             # Página principal para cadastro de despesas
+        ├── consulta.html          
+        └── index.html            
 
 ```
 
