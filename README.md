@@ -43,6 +43,40 @@ Este é um aplicativo web simples para controle de despesas pessoais, desenvolvi
 
 ```
 
+## 🧱 Estrutura das Classes
+
+### 📄 Despesa
+```plaintext
+    Despesa {
+      constructor(ano, mes, dia, tipo, descricao, valor) {
+        //  Inicializa os atributos
+      }
+
+      validarDados() {
+        // Retorna true se todos os campos estiverem preenchidos
+      }
+    }
+```
+### 💾 DataBase
+```plaintext
+    DataBase {
+      static salvarDespesa(despesa) {
+        //  Salva a despesa no localStorage
+      }
+
+      static recuperarTodosRegistros() {
+        //  Retorna todas as despesas cadastradas
+      }
+
+      static apagarDespesa(id) {
+        //  Remove a despesa pelo id
+      }
+
+      static pesquisa(filtroDespesa) {
+        //  Retorna despesas filtradas
+      }
+    }
+```
 ## 🚀 Como usar
 
 1. Clone ou baixe este repositório:
