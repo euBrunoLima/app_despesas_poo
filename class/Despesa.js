@@ -15,10 +15,9 @@ class Despesa{
         for(let i in this){
             if(this[i] === undefined || this[i] === '' || this[i] === null){
                 return false;
-            }else{
-                return true;
             }
         }
+        return true;
     }
 
 
