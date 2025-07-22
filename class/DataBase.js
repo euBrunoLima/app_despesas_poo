@@ -20,9 +20,11 @@ class DataBase{
                 const num = parseInt(key);
                 if(!isNaN(num) && num.toString() === key){
                     keysNum.push(parseInt(key));
-                } 
+                }
             })
-
+            if(keysNum.length === 0){
+                return 0;
+            }
             let maiorId =  Math.max(...keysNum);
             return maiorId + 1;
         }
