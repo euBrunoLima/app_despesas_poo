@@ -37,9 +37,8 @@ Este é um aplicativo web simples para controle de despesas pessoais, desenvolvi
     ├── class/
     │   ├── DataBase.js           
     │   └── Despesa.js            
-    └── pages/
-        ├── consulta.html          
-        └── index.html            
+    └─ consulta.html 
+    └── index.html       
 
 ```
 
